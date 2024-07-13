@@ -1,0 +1,76 @@
+/*
+Creation date: 13.7.2024
+Modification date: 13.7.2024
+
+It was probably not the best solution to use images for buttons, but hey, we got the tractor now!!!
+*/
+
+.MainButton{
+    margin-left: 2px;
+	margin-right: 2px;
+    cursor: pointer;
+    border: none;
+    width: 199px;
+    height: 45px;
+	background: url(Assets/UI/MainButton.png);
+	background-size: cover;
+}
+
+.MainButton:hover{
+    background: url(Assets/UI/MainButtonActive.png);
+	background-size: cover;
+	width: 222px;
+	height: 45px;
+}
+
+.LS08Button{
+    margin-left: 2px;
+	margin-right: 2px;
+    cursor: pointer;
+    border: none;
+    width: 188px;
+    height: 45px;
+	background: url(Assets/UI/LS08Button.png);
+	background-size: cover;
+}
+
+.LS08Button:hover{
+    background: url(Assets/UI/LS08ButtonActive.png);
+	background-size: cover;
+}
+
+.LS09Button{
+	margin-left: 2px;
+	margin-right: 2px;
+    cursor: pointer;
+    border: none;
+    width: 188px;
+    height: 45px;
+	bottom: 0;
+	background: url(Assets/UI/LS09Button.png);
+	background-size: cover;
+}
+
+.LS09Button:hover{
+    background: url(Assets/UI/LS09ButtonActive.png);
+	background-size: cover;
+}
+
+.KomeoButton{
+	margin-left: 2px;
+	margin-right: 2px;
+    cursor: pointer;
+    border: none;
+    width: 210px;
+    height: 45px;
+	bottom: 0;
+	background: url(Assets/UI/KomeoButton.png);
+	background-size: cover;
+}
+
+.KomeoButton:hover{
+    background: url(Assets/UI/KomeoButtonActive.png);
+	background-size: cover;
+	width: 235px;
+	height: 45px;
+}
