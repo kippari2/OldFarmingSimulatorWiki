@@ -1,6 +1,6 @@
 /*
 Creation date: 13.7.2024
-Modification date: 13.7.2024
+Modification date: 14.7.2024
 
 It was probably not the best solution to use images for buttons, but hey, we got the tractor now!!!
 */
@@ -73,4 +73,64 @@ It was probably not the best solution to use images for buttons, but hey, we got
 	background-size: cover;
 	width: 235px;
 	height: 45px;
+}
+
+.DropdownButton{
+    cursor: pointer;
+    border: none;
+    width: 268px;
+    height: 45px;
+}
+
+#GeneralInfoButton{
+	background: url(Assets/UI/GIButton.png);
+	background-size: cover;
+}
+
+.D1:hover #GeneralInfoButton{
+	background: url(Assets/UI/GIButtonActive.png);
+	background-size: cover;
+}
+
+#TechnicalInfoButton{
+	background: url(Assets/UI/TIButton.png);
+	background-size: cover;
+}
+
+.D2:hover #TechnicalInfoButton{
+	background: url(Assets/UI/TIButtonActive.png);
+	background-size: cover;	
+}
+
+#ModdingHistoryButton{
+	background: url(Assets/UI/MHButton.png);
+	background-size: cover;
+}
+
+.D3:hover #ModdingHistoryButton{
+	height: 54px;
+	background: url(Assets/UI/MHButtonActive.png);
+	background-size: cover;
+}
+
+#ModdingTutorialsButton{
+	height: 54px;
+	background: url(Assets/UI/MTButton.png);
+	background-size: cover;
+}
+
+.D4:hover #ModdingTutorialsButton{
+	height: 54px;
+	background: url(Assets/UI/MTButtonActive.png);
+	background-size: cover;
+}
+
+#ImageGalleryButton{
+	background: url(Assets/UI/IGButton.png);
+	background-size: cover;
+}
+
+.D5:hover #ImageGalleryButton{
+	background: url(Assets/UI/IGButtonActive.png);
+	background-size: cover;
 }

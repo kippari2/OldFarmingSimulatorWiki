@@ -1,0 +1,125 @@
+/*
+Creation date: 14.7.2024
+Modification date: 14.7.2024
+*/
+
+.DropdownMenus {
+	font-family: Franklin Gothic Medium;
+	font-size: 20px;
+}
+
+.DropdownMenus a:link { 
+	text-decoration: none;
+	color: white;
+} 
+
+.DropdownMenus a:visited { 
+	text-decoration: none; 
+} 
+
+.DropdownMenus a:hover { 
+	text-decoration: none;
+	color: #2f82e0;
+} 
+
+.DropdownMenus a:active { 
+	text-decoration: none; 
+}
+
+div li {
+	display: inline-block;
+	position: relative;
+}
+
+div li .DropdownButton {
+	display: block;
+}
+
+div li ul.GeneralInfoMenu {
+	width: 100%;
+	position: relative;
+	display: none;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding: 1px;
+}
+
+div li ul.GeneralInfoMenu li {
+	display: block;
+}
+
+div li:hover ul.GeneralInfoMenu {
+	display: inline-block;
+}
+
+div li ul.TechnicalInfoMenu li {
+	display: block;
+}
+
+div li ul.TechnicalInfoMenu {
+	width: 100%;
+	position: relative;
+	display: none;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding: 1px;
+}
+
+div li:hover ul.TechnicalInfoMenu {
+	display: inline-block;
+}
+
+div li ul.ModdingHistoryMenu li {
+	display: block;
+}
+
+div li ul.ModdingHistoryMenu {
+	width: 100%;
+	position: relative;
+	display: none;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding: 1px;
+}
+
+div li:hover ul.ModdingHistoryMenu {
+	display: inline-block;
+}
+
+div li ul.ModdingTutorialsMenu li {
+	display: block;
+}
+
+div li ul.ModdingTutorialsMenu {
+	width: 100%;
+	position: relative;
+	display: none;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding: 1px;
+}
+
+div li:hover ul.ModdingTutorialsMenu {
+	display: inline-block;
+}
+
+div li ul.ImageGalleryMenu li {
+	display: block;
+}
+
+div li ul.ImageGalleryMenu {
+	width: 100%;
+	position: relative;
+	display: none;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding: 1px;
+}
+
+div li:hover ul.ImageGalleryMenu {
+	display: inline-block;
+}
+
+div li ul li {
+	padding: 2px;
+}

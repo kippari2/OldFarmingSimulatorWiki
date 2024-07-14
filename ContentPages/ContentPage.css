@@ -1,6 +1,6 @@
 /*
 Creation date: 13.7.2024
-Modification date: 13.7.2024
+Modification date: 14.7.2024
 */
 
 html{
@@ -49,28 +49,27 @@ footer{
 }
 
 .SideBar {
-	width: 240px;
+	/*height: 100%;
+	display: inline-block;*/
+	width: 268px; /*276*/
 	position: fixed;
 	/*z-index: 1;  Stay on top
 	top: 0;  Stay at the top */
 	right: 0;
 	background-color: #19191a; /* Black */
 	overflow-x: hidden; /* Disable horizontal scroll */
-	/*padding-top: 20px;
-	padding-bottom: 20px;*/
+	/*padding-top: 20px;*/
+	/*padding-bottom: 1px;*/
 }
 
-.SideBar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+/*.SideBar a {
   display: block;
 }
 
-.SideBar a:hover {
-  color: #f1f1f1;
-}
+.DropdownMenus {
+	position: absolute;
+	left: 0;
+}*/
 
 .ContentBackground{
 	width: 800px;
